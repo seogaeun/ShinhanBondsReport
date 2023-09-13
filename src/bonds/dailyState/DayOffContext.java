@@ -5,7 +5,7 @@ import java.util.Calendar;
 import java.util.Date;
 
 /**
- * DayOffContext 클래스는 채권 시장의 운영 시간(9:00 ~ 17:00)에 따른
+ * DayOffContext 클래스는 채권 시장의 운영 시간(9:00 ~ 15:30)에 따른
  * 상태를 관리하고 출력하는 매서드들을 제공합니다.
  */
 public class DayOffContext {
@@ -21,9 +21,13 @@ public class DayOffContext {
      * 현재 시간을 기준으로 채권 시장의 운영 시간에 따른 상태를 초기화합니다.
      */
     public DayOffContext() {
-        calendar = Calendar.getInstance();
-        int currentHour = calendar.get(Calendar.HOUR_OF_DAY);
-        currentState = currentHour >= 9 && currentHour < 17 ? DayState.getInstance() : OffState.getInstance();
+    calendar = Calendar.getInstance();
+    int currentHour = calendar.get(Calendar.HOUR_OF_DAY);
+    int currentMinute = calendar.get(Calendar.MINUTE);
+    
+    // 채권 시장의 운영 시간 반영
+    boolean isMarketOpen = currentHour == 9 && currentMinute >= 0 && currentHour < 15 && currentMinute <= 30;
+    currentState = isMarketOpen ? DayState.getInstance() : OffState.getInstance();
     }
 
     /**
