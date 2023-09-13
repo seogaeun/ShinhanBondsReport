@@ -21,5 +21,6 @@
 [프로젝트 기술 문서 깃헙](<./기술문서 Markdown.md>) 🛠️ | 
 [프로젝트 기술 문서 노션](https://www.notion.so/57420225a93e4aef8552f699c3f73aa6?pvs=21) 📙
 
+Projected by Gaeun:)
 
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fseogaeun%2FShinhanBondsReport&count_bg=%235BA8FF&title_bg=%23878585&icon=&icon_color=%23E7E7E7&title=Hi%2C+visitor%21&edge_flat=false)](https://hits.seeyoufarm.com)
