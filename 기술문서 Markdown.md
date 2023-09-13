@@ -1,6 +1,6 @@
 # 신한투자증권 채권 가상투자 서비스에 디자인 패턴 적용하기
 
-![Untitled](https://github.com/seogaeun/ShinhanBondsReport/tree/3ce4f034d637c9a04fe26179ffe67ddcef05c94b/%EA%B8%B0%EC%88%A0%EB%AC%B8%EC%84%9C%20Markdown%20%EC%9D%B4%EB%AF%B8%EC%A7%80%20%ED%8C%8C%EC%9D%BC/Untitled.png)
+![Untitled](https://github.com/seogaeun/ShinhanBondsReport/기술문서 Markdown 이미지 파일/Untitled.png)
 
 ▲이번프로젝트에서 실제로 구현해본 채권 가상 투자 서비스 화면
 
