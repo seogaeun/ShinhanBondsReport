@@ -50,9 +50,9 @@ public class DayOffContext {
      * 시간 경과를 처리하고 현재 채권 시장의 운영 시간에 따른 상태에 따라 작업을 수행합니다.
      */
     public void tick() {
-        calendar.add(Calendar.HOUR_OF_DAY, 1); // 1시간 경과
-        String formattedHour = sdf.format(date);
-        int hour = Integer.parseInt(formattedHour);
-        currentState.handleTime(this, hour);
+        calendar.add(Calendar.MINUTE, 30); // 30분 경과
+        String formattedHalfHour = sdf.format(date);
+        int halfHour = Integer.parseInt(formattedHalfHour);
+        currentState.handleTime(this, halfHour);
     }
 }
