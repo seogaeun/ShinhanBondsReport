@@ -8,7 +8,5 @@
 2. 채권의 이자 및 원금지급방법(복리채, 단리채, 할인채, 이표채)에 따라 채권 정형화 한 뒤, 채권 생성시 **Factory Method 사용**
 3. **Facade**를 통한 고객 채권 투자 리포트 생성 간편화
 
-
-
-![UML Class Diagram](https://github.com/seogaeun/ShinhanBondsReport/blob/b2b4f636526ac02c699e6079ad6dbb5ea548f1e9/%EC%B1%84%EA%B6%8C%20%EC%84%A4%EA%B3%84%20%EC%A0%84%EC%B1%84%20UML%20%ED%81%B4%EB%9E%98%EC%8A%A4%20%EB%8B%A4%EC%9D%B4%EC%96%B4%EA%B7%B8%EB%9E%A8.pdf)
+[UML Class Diagram](https://github.com/seogaeun/ShinhanBondsReport/blob/b2b4f636526ac02c699e6079ad6dbb5ea548f1e9/%EC%B1%84%EA%B6%8C%20%EC%84%A4%EA%B3%84%20%EC%A0%84%EC%B1%84%20UML%20%ED%81%B4%EB%9E%98%EC%8A%A4%20%EB%8B%A4%EC%9D%B4%EC%96%B4%EA%B7%B8%EB%9E%A8.pdf)
 
