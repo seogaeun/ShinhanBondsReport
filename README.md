@@ -12,5 +12,5 @@
 
 [프로젝트 깃헙](https://github.com/seogaeun/ShinhanBondsReport) 🐈‍⬛
 
-[프로젝트 기술 문서 깃헙](<./기술문서 Markdown.md>) 🛠️  |  
+[프로젝트 기술 문서 깃헙](<./기술문서 Markdown.md>) 🛠️ | 
 [프로젝트 기술 문서 노션](https://www.notion.so/57420225a93e4aef8552f699c3f73aa6?pvs=21) 📙
