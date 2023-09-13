@@ -31,11 +31,11 @@
 
 이번 프로젝트에 모티브가 된 신한투자증권 채권 가상투자 서비스 구성 및 흐름은 다음과 같습니다.
 
-![Untitled](./기술문서Markdown이미지파일/Untitled%202.png)
+![Untitled](<./기술문서Markdown이미지파일/Untitled 2.png>)
 
-![Untitled](./기술문서Markdown이미지파일/Untitled%203.png)
+![Untitled](<./기술문서Markdown이미지파일/Untitled 3.png>)
 
-![Untitled](./기술문서Markdown이미지파일/Untitled%204.png)
+![Untitled](<./기술문서Markdown이미지파일/Untitled 4.png>)
 
 1. 우측 가상투자 버튼을 누르면 자동으로 가상투자 팝업이 생성되며, 종목 코드와 종목명이 입력이 된다.
 2. 이에 해당되는 매수, 매도일자, 수익률, 단가가 적용된다.
@@ -49,11 +49,11 @@
 2. 채권의 이자 및 원금지급방법(복리채, 단리채, 할인채, 이표채)에 따라 채권 정형화 한 뒤, 채권 생성시 **Factory Method 사용**
 3. **Facade**를 통한 고객 채권 투자 리포트 생성 간편화
 
-![Untitled](./기술문서Markdown이미지파일/Untitled%205.png)
+![Untitled](<./기술문서Markdown이미지파일/Untitled 5.png>)
 
 화질이 안좋은 관계로 아래 PDF파일 열람을 권장합니다.
 
-[최종.drawio (7).pdf](./기술문서Markdown이미지파일/%25EC%25B5%259C%25EC%25A2%2585.drawio_(7).pdf)
+[최종.drawio (7).pdf](<./기술문서Markdown이미지파일/%25EC%25B5%259C%25EC%25A2%2585.drawio_(7).pdf>)
 
 ---
 
@@ -71,13 +71,13 @@
 
 ## 상태 패턴을 사용하는 간단한 실생활 예시
 
-![Untitled](./기술문서Markdown이미지파일/Untitled%206.png)
+![Untitled](<./기술문서Markdown이미지파일/Untitled 6.png>)
 
  예를 들어, 자판기는 금액이 투입되고 금액이 부족하냐, 충분하냐에 따른 상태에 따라 음료수를 판매하는데, 
 
  이때 상태패턴을 사용하면 자판기의 상태에 따라 음료수를 판매하는 동작을 변경할 수 있습니다. 만약 상태가 동전이 충분한 상태가 된다면 자판기는 음료를 뽑을 수 있는 권한을 줍니다!
 
-![Untitled](./기술문서Markdown이미지파일/Untitled%207.png)
+![Untitled](<./기술문서Markdown이미지파일/Untitled 7.png>)
 
 또한 시간에 따른 상태를 생각해보면, 여러분들이 종사하고 있는 증권회사의 근무시간을 들어볼 수도 있습니다.
 
@@ -152,7 +152,7 @@ public class DayOffContext {
 
 State 패턴을 적용한 UML클래스 다이어그램은 다음과 같습니다.
 
-![Untitled](./기술문서Markdown이미지파일/Untitled%208.png)
+![Untitled](<./기술문서Markdown이미지파일/Untitled 8.png>)
 
 1. **DayOffContext 클래스:**
     - **`DayOffContext`** 클래스는 **채권 시장의 운영 상태를 추상화**하고, 현재 시간에 따라 다른 상태를 유지하는 클래스입니다.
@@ -192,7 +192,7 @@ Factory Method 패턴을 통해 객체 생성을 처리하는 코드를 별도�
  Factory Method 패턴은 실생활에서도 많이 사용됩니다. 
 예를 들어, 우리가 평소에 자주 마시는 커피☕에도 Factory Method가 들어갑니다.
 
-![Untitled](./기술문서Markdown이미지파일/Untitled%209.png)
+![Untitled](<./기술문서Markdown이미지파일/Untitled 9.png>)
 
 커피 전문점에서는 커피를 만드는 방법에 따라 아메리카노, 라떼, 카푸치노 등 다양한 종류의 커피를 제공합니다. 
 
@@ -281,7 +281,7 @@ Factory Method 패턴을 적용한 UML클래스 다이어그램은 다음과 같
 
 *(화질 관계상 첨부된 PDF를 보시길 권장드립니다.)*
 
-![Untitled](./기술문서Markdown이미지파일/Untitled%2010.png)
+![Untitled](<./기술문서Markdown이미지파일/Untitled 10.png>)
 
 - **AbstractBondFactory (<<Abstract>>BondFactory):**
     - **`AbstractBondFactory`**는 채권 객체를 생성하는 추상 팩토리 클래스입니다. 이 클래스를 상속하여 구체적인 채권 종류에 대한 팩토리를 생성합니다.
@@ -340,7 +340,7 @@ Factory Method 패턴을 적용한 UML클래스 다이어그램은 다음과 같
 
 ## Facade 실생활 예시
 
-![Untitled](./기술문서Markdown이미지파일/Untitled%2011.png)
+![Untitled](<./기술문서Markdown이미지파일/Untitled 11.png>)
 
 사실 퍼사드 패턴을 가장 쉽게 설명하려면 원클릭 버튼이 가장 손 쉬운 예시입니다. 
 
@@ -376,7 +376,7 @@ checkMarketStatus();
 
 Facade 패턴을 이용하여 아래와 같은 UML 클래스 다이어그램 코드를 작성했습니다.
 
-![Untitled](./기술문서Markdown이미지파일/Untitled%2012.png)
+![Untitled](<./기술문서Markdown이미지파일/Untitled 12.png>)
 
 Facade 클래스를 통하여
 
@@ -388,7 +388,7 @@ Facade 클래스를 통하여
 
 # 결과 화면
 
-![Untitled](./기술문서Markdown이미지파일/Untitled.png)
+![Untitled](<./기술문서Markdown이미지파일/Untitled.png>)
 
 앞서 디자인패턴을 적용하여 가상 투자 리포트를 생성하는 프로그램을 만들었습니다.
 
